@@ -1,10 +1,15 @@
 # Site settings
 title: Konstantin Koval
+person_role: iOS Developer
+
 email: konstantin.koval1@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Blog about iOS development. Swift languages, iOS8 and more"
 baseurl: ""
 url: "http://yourdomain.com"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+twitteraccount: kostiakoval
+githubaccount: konstantinkoval
