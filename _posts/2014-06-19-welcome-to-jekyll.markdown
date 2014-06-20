@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Start with Swift!"
+title: Start with Swift!
 date: {}
 categories: jekyll update
 published: true
