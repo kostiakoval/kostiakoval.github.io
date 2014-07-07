@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Split Development and Release enviroment!"
+categories: architecture
+published: true
+---
+
+Split enviromen confugurations
+
+Whyle development you don't wan't to track puchases and some crashes. So you need to cahnges your setting, for eample for google analytics. 
+The way to do that - 
+
+
+- Use #define and ifs
+- Make a enviroment factory
+
+
+#What to put to enviroment settings
+
+* Server urls
+* configuration
+* Tools configuration (Google Analytics, TestFlight, Bugscene)
+* Logs
+* Asserts
+
+
+
+

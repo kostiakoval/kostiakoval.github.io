@@ -5,7 +5,7 @@ person_role: iOS Developer
 email: konstantin.koval1@gmail.com
 description: "Blog about iOS development. Swift languages, iOS8 and more"
 baseurl: ""
-url: "http://yourdomain.com"
+url: ""
 
 # Build settings
 markdown: kramdown
@@ -13,3 +13,5 @@ permalink: pretty
 
 twitteraccount: kostiakoval
 githubaccount: konstantinkoval
+
+permalink: /posts/:title
