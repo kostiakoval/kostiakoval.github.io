@@ -30,7 +30,7 @@ I'm a big fan of Apple, iOS and all Apple deviceds and products. But this year b
 * Android Fit
 
 
-| Apple  || Android  | 
-|--------||----------|
-| iOS 8  || Android L  |  
-| asfas  || fasf as  |  
+| Apple  |" Android  | 
+|--------|-----------|
+| iOS 8  | Android L  |  
+| asfas  | fasf as  |  
