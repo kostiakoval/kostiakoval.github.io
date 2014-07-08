@@ -22,10 +22,10 @@ Thanks to Apple Review team, we get that fix with expedited review and it took 2
 There is going to be a lot issues bugs and crashes. Prepare for them.
 Use bugs and crash reporting tool. Here is few of my favorite:  
 
-* [Crashlytics]("http://try.crashlytics.com")
-* [Google Analytics]("www.google.com/analytics/")
-* [BugSense]("https://www.bugsense.com")
-* [TestFlight]("https://www.testflightapp.com")
+* [Crashlytics](http://try.crashlytics.com)
+* [Google Analytics](www.google.com/analytics/)
+* [BugSense](https://www.bugsense.com)
+* [TestFlight](https://www.testflightapp.com)
 
 I use a lot Google Analytics and I like to have my errors report there sa well. A But I also use BugSense. It give more detailed information about crashed.
 

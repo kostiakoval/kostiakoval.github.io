@@ -8,6 +8,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/table.css" | prepend: site.baseurl }}">
+
+    {% if page.tableContent %}
+    	<link rel="stylesheet" href="{{ "/css/table.css" | prepend: site.baseurl }}">
+    {% else %}
+        <link rel="stylesheet" href="{{ "/css/table-white.css" | prepend: site.baseurl }}">
+    {% endif%}
 
 </head>
