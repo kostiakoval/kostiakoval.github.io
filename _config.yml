@@ -41,3 +41,14 @@ gems:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
+
+# Rake File Config
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: gvim
+
+exclude: [rake README.md]
