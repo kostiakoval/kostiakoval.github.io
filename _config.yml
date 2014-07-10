@@ -52,3 +52,41 @@ page:
 editor: gvim
 
 exclude: [rake README.md]
+
+#Comments and share From //http://blog.sendtoinc.com
+inc:
+ # Comments
+  disqus:
+    # Eg. "exampleblog" Set to false to disable comments
+    shortname:  true
+
+  # Sharing settings
+  sharing:
+    twitter:    true
+    facebook:   true
+    gplus:      true
+    hn:         true
+
+  # Analytics     
+  analytics:
+    google: true # Add tracking code in _includes/_google-analytics.html
+
+plugins:     ./_plugins
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+assets:
+
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  js_compressor: uglifier
+  css_compressor: sass
+  cachebust: none
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: false

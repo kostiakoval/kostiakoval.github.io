@@ -1,0 +1,14 @@
+article {
+    .social {
+        height:40px;
+        padding:10px 0;
+        
+        > div {
+            display:inline-block;
+            min-width:120px;
+        }
+        span {
+            height: 27px !important;
+        }
+    }
+}
