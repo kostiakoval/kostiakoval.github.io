@@ -5,7 +5,7 @@ categories: Swift
 published: true
 ---
 
-I was impleting my own Stack collection based on the [WDDC session video](https://developer.apple.com/videos/wwdc/2014/#404-video). After implemeting Sequence protocol, I thought that this look like a generic code. 
+I was implementing my own Stack collection based on the [WDDC session video](https://developer.apple.com/videos/wwdc/2014/#404-video). After implementing Sequence protocol, I thought that this look like a generic code. 
 
 ```
 extension Stack : Sequence {
@@ -27,7 +27,7 @@ struct StackGenerator<T> : Generator {
 
 ```
 
-I've start looking for alsternative. There is `SequenceOf<T>` and `GeneratorOf<T>`in Swift
+I've start looking for alternative. There is `SequenceOf<T>` and `GeneratorOf<T>`in Swift
 Let's use that
 
 ```
@@ -44,7 +44,7 @@ extension Stack : Sequence {
   }
 }
 ```
-This looks better, but not perfect. My Stack is using Arrray<T> as storage. Array has addopted Sequence alredy. Maybe we could use it's implementation. I found [an article](http://robots.thoughtbot.com/swift-sequences) that does exactly what I want
+This looks better, but not perfect. My Stack is using Arrray<T> as storage. Array has adopted Sequence already. Maybe we could use it's implementation. I found [an article](http://robots.thoughtbot.com/swift-sequences) that does exactly what I want
 
 ```
 extension Stack : Sequence {
