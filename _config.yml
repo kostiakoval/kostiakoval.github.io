@@ -5,13 +5,25 @@ email: konstantin.koval1@gmail.com
 description: "Blog about iOS development. Swift languages, iOS8 and more"
 
 pygments: true
+highlighter: rouge
 baseurl: ""
 url: "http://konstantinkoval.github.io"
 
 # Build settings
 markdown: redcarpet
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+  extensions: 
+  - no_intra_emphasis
+  - fenced_code_blocks
+  - autolink
+  - tables 
+  - with_toc_data
+  - footnotes
+  - highlight
+  - underline
+  - smart
+  - space_after_headers
+  - strikethrough
 
 twitteraccount: kostiakoval
 githubaccount: konstantinkoval
