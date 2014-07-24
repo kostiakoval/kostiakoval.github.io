@@ -7,7 +7,7 @@ published: true
 
 The iOS developers community has grown tremendously for last few years. I remember those days when there wasn't [cocoapods](http://cocoapods.org). We use those great libs and projects every day, but we should not forget to contribute back to the community.  
   
-At this moment many would say, "*Yea, but I don't have time for that*". Yes, that's true. If you are working as full-time employee, it could be hard to find time for it.  
+At this moment many would say, *"Yea, but I don't have time for that"*. Yes, that's true. If you are working as full-time employee, it could be hard to find time for it.  
   
 But with cocoapods it's so easy. How often working on project you find some issue or bug in the library, or maybe some missing feature you need? And you think, I'll do changes directly in my project. It's fast and easy.
 But there is a better approach. This is great time to contribute.
