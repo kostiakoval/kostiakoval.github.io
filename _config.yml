@@ -65,7 +65,7 @@ inc:
     twitter:    true
     facebook:   false
     gplus:      true
-    hn:         true
+    hn:         false
 
   # Analytics     
   analytics:
