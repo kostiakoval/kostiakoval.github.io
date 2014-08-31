@@ -17,7 +17,7 @@ But there is a better approach. This is great time to contribute.
 * Change cocapods to fetch it from your fork repo 
 * pod 'AFNetworking', :git => 'git@github.com:konstantinkoval/AFNetworking.git'  
 * Write code, commit it  
-* Make a [pull request](hub.com/articles/creating-a-pull-request)  
+* Make a [pull request](https://help.github.com/articles/creating-a-pull-request)  
   
 That's it. It could take you 5 minutes to do that.  
 And you get one more benefit! Your changes will be stored remotely. Next time you will run  

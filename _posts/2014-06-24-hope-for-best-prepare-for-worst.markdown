@@ -23,7 +23,7 @@ There is going to be a lot issues bugs and crashes. Prepare for them.
 Use bugs and crash reporting tool. Here is few of my favorite:  
 
 * [Crashlytics](http://try.crashlytics.com)
-* [Google Analytics](www.google.com/analytics/)
+* [Google Analytics](http://www.google.com/analytics/mobile/)
 * [BugSense](https://www.bugsense.com)
 * [TestFlight](https://www.testflightapp.com)
 
