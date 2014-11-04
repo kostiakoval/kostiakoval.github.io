@@ -47,6 +47,6 @@ What happens here is:
 1. Because of polymorphism ` RaisingCar ` drive function is being called  
 2. But it's called with `false` default parameter. This happens because swift binds default parameters statically. The static type of rasing2 variable is Car, because we have specified it.    
   
-Thanks to **Airspeed Velocity** about [great pot](http://airspeedvelocity.net/2014/06/12/default-parameters-in-swift-are-statically-bound/)
+Thanks to **Airspeed Velocity** about [great post](http://airspeedvelocity.net/2014/06/12/default-parameters-in-swift-are-statically-bound/)
 
 
