@@ -5,7 +5,7 @@ permalink: /about/
 ---
  
 
-My name is **Konstantin Koval**. I'm passionate iOS Developer. I love coding.
+My name is **Kostiantyn Koval**. I'm passionate iOS Developer. I love coding.
 
 Also I'm passionates [wannapreneur](http://www.wannapreneur.com) and would love to start a startup. If you have great idea for startup and you are looking for technical partren feel free to contack me. I'm open for propouses.
 

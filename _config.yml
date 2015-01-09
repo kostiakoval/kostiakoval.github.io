@@ -1,5 +1,5 @@
 # Site settings
-title: Konstantin Koval
+title: Kostiantyn Koval
 person_role: iOS Developer
 email: konstantin.koval1@gmail.com
 description: "Blog about iOS development. Swift languages, iOS8 and more"
@@ -14,7 +14,7 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 twitteraccount: kostiakoval
-githubaccount: konstantinkoval
+githubaccount: kostiakoval
 
 permalink: /posts/:title
 

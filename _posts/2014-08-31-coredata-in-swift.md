@@ -42,7 +42,7 @@ The first thing you see when you create new Project with CoreData template is ug
 There should be a better way to do this. And there is. -
 
 
-##[Seru](https://github.com/konstantinkoval/Seru)
+##[Seru](https://github.com/kostiakoval/Seru)
 Seru is light CoreData stack wrapper. It helps to setup and manage CoreData stack (Model, PersistenceCoordinator and Contexts).  
 
 Here is how CoreData setup looks in Seru.  
@@ -69,4 +69,4 @@ persistenceController.persist()
 ```
 There are many more interesting thing that Seru does.  
 To see more details and Example project checkout code here  
-https://github.com/konstantinkoval/Seru
+https://github.com/kostiakoval/Seru

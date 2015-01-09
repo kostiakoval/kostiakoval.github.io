@@ -15,7 +15,7 @@ But there is a better approach. This is great time to contribute.
 * [Make a fork](https://help.github.com/articles/fork-a-repo) of the library you find a bug and want to improve  
 * Clone your fork
 * Change cocapods to fetch it from your fork repo 
-* pod 'AFNetworking', :git => 'git@github.com:konstantinkoval/AFNetworking.git'  
+* pod 'AFNetworking', :git => 'git@github.com:kostiakoval/AFNetworking.git'  
 * Write code, commit it  
 * Make a [pull request](https://help.github.com/articles/creating-a-pull-request)  
   
