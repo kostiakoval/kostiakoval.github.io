@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "Curried Functions VS Default parameters"
+title: "Judging Siwft"
 categories:
 published: false
 ---
+
+
