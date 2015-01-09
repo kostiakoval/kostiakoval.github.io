@@ -6,7 +6,7 @@ description: "Blog about iOS development. Swift languages, iOS8 and more"
 
 pygments: true
 baseurl: ""
-url: "http://konstantinkoval.github.io"
+url: "http://kostiakoval.github.io"
 
 # Build settings
 markdown: redcarpet
