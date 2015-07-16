@@ -10,8 +10,7 @@ struct Type {
 
   static var keys: [String] {
     print("Executed")
-    let items = ["One", "Two"]
-    return items
+    return ["One", "Two"]
   }
 }
 
@@ -27,8 +26,7 @@ struct Type {
   
   static var keys: [String] = {
     print("Executed")
-    let items = ["One", "Two"]
-    return items
+    return ["One", "Two"]
   }()
 }
 
