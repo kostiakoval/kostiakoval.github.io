@@ -19,12 +19,12 @@ Type.keys
 ```
 
 
-`Type.keys` is a computed property and it is evaluated every time we call it. The `Executed` is printed twice to console. What I want is to turn it into a lazy static property.  It is very simple, add `=` and `()`  
+`Type.keys` is a computed property and it is evaluated every time we call it. The `Executed` is printed twice to console. What I want is to turn it into a lazy static property.  It is very simple, add `=` and `()`. Plus we should make it immutable by using `let`
 
 ```Swift
 struct Type {
   
-  static var keys: [String] = {
+  static let keys: [String] = {
     print("Executed")
     return ["One", "Two"]
   }()
