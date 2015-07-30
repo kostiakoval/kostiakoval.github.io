@@ -6,7 +6,7 @@ published: true
 ---
 
 ## Intro
-I have an en enum with associated raw values. I use very popular and well know enum for representing SegueIdentifiers but it can be any other enum with raw values.
+I have an en enum with associated raw values. I use a very popular and well know enum for representing SegueIdentifiers but it can be any other enum with raw values.
 
 ```swift
 enum SegueIdentifier: String {
@@ -64,15 +64,15 @@ func performSegue(id: String) {
 }
 ```
 
-Because `SegueIdentifier(rawValue: id)` init method returns an option SegueIdentifier first we need to unwrap the option. Then if it's not nil we can handle its case.
+Because `SegueIdentifier(rawValue: id)` init method returns an optional SegueIdentifier first we need to unwrap it. Then if it's not nil we can handle its case.
 
 This code looks ok but there few things I don't like: 
  
- - nested `if let` 
- - It's not Singe Responsible. It handles optional **AND** handle Enum cases
- - It's not the ["Happy Path"](http://www.wikiwand.com/en/Happy_path)" code style. The right side code indent `>>>`, which could eventually become this:
+ - Nested `if let` 
+ - It's not Singe Responsible. It unwraps optional value **AND** handle Enum cases
+ - It's not the ["Golden / Happy Path"](http://www.wikiwand.com/en/Happy_path)" code style. The right side code indent `>>>`, which could eventually become this:
  
-![image]({{ site.url }}/images/enum-with-raw-value/code-indent.jpg)
+![image]({{ site.url }}/images/2015-07-30-enum-with-raw-value/code-indent.jpg)
 
 **2. Switch on optional Enum** 
 
@@ -91,19 +91,19 @@ func performSegue(id: String) {
   }
 }
 ```
-We can make a switch on the optional `SegueIdentifier?` without unwrapping it. This way we need need to handle optional `nil` value in the swift and each case need to use `.Some` to access the value. 
+We can make a switch on the optional `SegueIdentifier?` without unwrapping it. This way we need to handle optional `nil` value in the switch and each case statement need to use `.Some` to access the value. 
 
-We get right on right side code indent but we introduced new Complexity. Now each case include information about optional handling type, the `.Some` keyword.
+We get right on right side code indent but we introduced new Complexity. Now each case include information about optional type handling, the `.Some` keyword.
 
 ## Ideal Solution
 
 What I want: 
 
-- Switch should per perform on non optional `SegueIdentifier` 
-- Clean left side code indent
-- A functions that does Only 1 thing
+- Switch should be performed on non-optional `SegueIdentifier` type
+- Clean "Golden Path" code indent
+- A [SRP](http://www.wikiwand.com/en/Single_responsibility_principle) functions that does Only 1 thing
 
-I find the 1 solution to be better and I will use it as a base and improve it. First to solve **Single responsibility** problem I will move enum cases handling to separate method
+I find the solution N1 to be better and I will use it as a base and improve it. First to solve **Single Responsibility** problem I will move enum cases handling to separate method
 
 ```swift
 func performSegue(id: String) {
@@ -136,11 +136,11 @@ func performSegue(id: String) {
   segue.map(handle)
 }
 ```
-Use the Option map function `func map<U>(@ noescape f: (T) -> U) -> U?`
+Use the Optional `map` function `func map<U>(@ noescape f: (T) -> U) -> U?`
 
 **2. if_let function**
 
-If you thing that a `map` is only for data transformation and it shouldn't be used for performing actions, you can use `if_let` function proposed by [Colin Eberhardt](http://blog.scottlogic.com/2014/12/08/swift-optional-pyramids-of-doom.html).
+If you think that a `map` should be used only for data transformation and it shouldn't be used for performing actions, you can use `if_let` function proposed by [Colin Eberhardt](http://blog.scottlogic.com/2014/12/08/swift-optional-pyramids-of-doom.html).
 
 ```swift
 func if_let<T>(x: T?, fn: (T) -> Void) {
@@ -156,6 +156,7 @@ func performSegue(id: String) {
 ```
 
 **3. Operators**
+
 If you like Haskell and Custom operators, you can use [Runes](https://github.com/thoughtbot/runes)
 or make own operator (Use runes!!!)
 
@@ -175,12 +176,14 @@ func performSegue(id: String) {
 }
 ```
 
-This is it :). Final notes
+This is it :)
+
+### Final notes
 
 -  Strive to **Single Responsible** code: Classes, components, and even functions
 -  Well know Custom operators are not scary, love them, use them :)
 
-The code is here Playground
+Code Example - [Playground]({{ site.url }}/code/2015-07-30-enum-with-raw-value)
 
 
 
