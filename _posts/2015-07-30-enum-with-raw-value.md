@@ -15,7 +15,7 @@ enum SegueIdentifier: String {
   case Share
 }
 ```
-> Sift 2.0 enums get default String values, like that   
+> Swift 2.0 enums get default String values, like that   
 > `case ShowPhoto = "ShowPhoto"`
 
 Now I want to create an enum instance from the raw String value and perform some actions depending on the enum case.
