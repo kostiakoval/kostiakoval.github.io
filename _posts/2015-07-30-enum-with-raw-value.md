@@ -183,7 +183,7 @@ This is it :)
 -  Strive to **Single Responsible** code: Classes, components, and even functions
 -  Well know Custom operators are not scary, love them, use them :)
 
-Code Example - [Playground]({{ site.url }}/code/2015-07-30-enum-with-raw-value)
+Code Example - [Playground](https://github.com/kostiakoval/kostiakoval.github.io/raw/master/code/2015-07-30-enum-with-raw-value/Enums.playground.zip)
 
 
 
