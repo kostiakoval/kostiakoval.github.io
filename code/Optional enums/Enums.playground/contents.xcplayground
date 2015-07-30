@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='raw'>
+    <pages>
+        <page name='Page 1'/>
+        <page name='Unwrap and handle'/>
+        <page name=' Switch on optional Enum'/>
+        <page name='Ideal Solution'/>
+        <page name='Ideal Solution - Map'/>
+        <page name='Ideal Solution - if_let'/>
+        <page name='Ideal Solution - Operators'/>
+    </pages>
+</playground>
