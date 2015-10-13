@@ -27,12 +27,9 @@ UIATarget.onAlert = function onAlert(alert) {
 
 When you return `true` you take the full responsibility for correct actions handling of UIAlert and after that you can tap any button of `UIAlert`     
 
-[Apple Documentation](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Reference/UIAutomationRef/index.html#//apple_ref/doc/uid/TP40009771)
-
 > ### Handling Alerts
 >   
-> When UI Automation encounters an alert during the execution of your script, it calls your alert handler, passing a reference to the UIAAlert object representing the alert. Your script should handle the alert appropriately and return a value of true, upon which normal script execution continues.     
->   
->  To ensure that alerts don't interfere with testing, the Automation instrument also implements a simple default alert handler. If your script’s alert handler returns false, this default handler attempts to dismiss the alert by tapping the cancel button, if it exists; otherwise, it taps the default button.   
->      
-> The following code implements a simple alert handler that records a message to the log and returns false, thereby depending on the default handler to dismiss the alert:
+> When UI Automation encounters an alert during the execution of your script, it calls your alert handler, passing a reference to the UIAAlert object representing the alert. Your script should handle the alert appropriately and return a value of true, upon which normal script execution continues...
+ 
+Read more at Apple's UI Automation [JavaScript Documentation](https://developer.apple.com/library/prerelease/ios/documentation/DeveloperTools/Reference/UIAutomationRef/index.html#//apple_ref/doc/uid/TP40009771), "Handling Alerts" sections
+
