@@ -110,6 +110,6 @@ let groupedPeople = sections.map { $0.map { ($0 as! Adapter).val } }
 groupedPeople
 ```
 
-Code Example - [Playground](https://github.com/kostiakoval/kostiakoval.github.io/raw/master/code/2015-11-14-swift-and-ios-sdk/Swift_and_iOS-SDK.playground.zip)
+### Code Example - [Playground](https://github.com/kostiakoval/kostiakoval.github.io/raw/master/code/2015-11-14-swift-and-ios-sdk/Swift_and_iOS-SDK.playground.zip)
 
 
