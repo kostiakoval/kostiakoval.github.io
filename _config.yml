@@ -71,7 +71,7 @@ inc:
   analytics:
     google: true # Add tracking code in _includes/_google-analytics.html
 
-plugins:     ./_plugins
+plugins_dir:     ./_plugins
 
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
