@@ -6,7 +6,7 @@ published: true
 ---
 #### [Download examples](/code/2015-12-05-swift-package-manager/package-manager-examples.zip)
 
-Swift is Open-Source now 👏🎉, here [Swif§t.org](https://swift.org) and here [GitHub](https://github.com/APPLE). The are a lot of amazing stuff there, but now I want to look at [Swift Package Manager](https://github.com/apple/swift-package-manager). Fist install [Swift 2.2 Toolchains](https://swift.org/getting-started/#installing-swift). When you run `swift --version` you should see
+Swift is Open-Source now 👏🎉, here [Swift.org](https://swift.org) and here [GitHub](https://github.com/APPLE). The are a lot of amazing stuff there, but now I want to look at [Swift Package Manager](https://github.com/apple/swift-package-manager). Fist install [Swift 2.2 Toolchains](https://swift.org/getting-started/#installing-swift). When you run `swift --version` you should see
 
 ```
 Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)
