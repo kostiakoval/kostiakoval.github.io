@@ -5,7 +5,7 @@
 Please note that the code is intentionally "messy" and quite un-DRY so that'll be easier to take the parts that you want and toss away the others.
 
 ## Usage
-
+use this - `bundle exec rake`
 ### Tasks
 
     rake post["Title"]

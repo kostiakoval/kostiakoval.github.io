@@ -1,0 +1,1 @@
+Open a package folder and run `swift build`

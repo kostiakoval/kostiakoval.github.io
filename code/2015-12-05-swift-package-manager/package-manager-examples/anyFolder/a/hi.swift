@@ -1,0 +1,3 @@
+func hi() {
+	print("hi")
+}
