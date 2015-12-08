@@ -67,7 +67,7 @@ project/Source/LibB/hi.swift
 
 ❗️ Use Source folder. This is preferred solution and we see that [Swift team suggest](https://swift.org/getting-started/#using-the-build-system) to follow it.  
  
-**3. No folder**   
+**3. Any other folders**   
 If there is no `Sources` folder (or `Sources`, `srcs`, `src`) in root directory, any other folders are treated as a Module with source files.
 
 ```
